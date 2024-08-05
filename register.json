@@ -1,0 +1,22 @@
+[
+    {
+        "user_id": "U07F7BFDS90",
+        "languages": [
+            "KA",
+            "TR",
+            "PL",
+            "ES",
+            "PT"
+        ],
+        "display_name": "Danylo Petrushynets"
+    },
+    {
+        "user_id": "U06BHE4H869",
+        "display_name": "Admin",
+        "languages": [
+            "EN",
+            "KA",
+            "TR"
+        ]
+    }
+]
