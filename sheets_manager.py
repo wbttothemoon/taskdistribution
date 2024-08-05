@@ -17,7 +17,7 @@ class SheetsManager:
             raise ValueError("GOOGLE_SHEET_ID not found in environment variables.")
         
         # Укажите путь к вашему файлу учетных данных
-        creds_file = '/Users/u/Desktop/Test/credentials.json'
+        creds_file = '/credentials.json'
         scopes = [
             'https://www.googleapis.com/auth/spreadsheets',
             'https://www.googleapis.com/auth/drive'
