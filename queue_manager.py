@@ -117,3 +117,6 @@ class QueueManager:
     def get_display_name(self, user_id):
         user = next((user for user in self.registered_users if user['user_id'] == user_id), None)
         return user['display_name'] if user else None
+    
+    def get_first_user(self):
+        return self.queue[0] if self.queue else None
